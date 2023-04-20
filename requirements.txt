@@ -1,0 +1,6 @@
+gaugette
+RPi.GPIO==0.7.0
+Adafruit-Blinka==6.18.0
+Adafruit-SSD1306==2.6.0
+Adafruit-CircuitPython-Framebuf==1.6.1
+smbus2==0.5.1
