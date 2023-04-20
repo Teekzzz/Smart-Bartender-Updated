@@ -109,15 +109,15 @@ class Bartender(MenuDelegate):
         # Set up the NeoPixel strip with the specified configuratiself.pumpon
         self.numpixels = NUMBER_NEOPIXELS
         datapin = NEOPIXEL_DATA_PIN
-    clockpin = NEOPIXEL_CLOCK_PIN
-    self.strip = Adafruit_DotStar(self.numpixels, datapin, clockpin)
-    self.strip.begin()
-    self.strip.setBrightness(NEOPIXEL_BRIGHTNESS)
+        clockpin = NEOPIXEL_CLOCK_PIN
+        self.strip = Adafruit_DotStar(self.numpixels, datapin, clockpin)
+        self.strip.begin()
+        self.strip.setBrightness(NEOPIXEL_BRIGHTNESS)
 
-    # Turn off all pixels on the NeoPixel strip
-    for i in range(0, self.numpixels):
-        self.strip.setPixelColor(i, 0)
-    self.strip.show()
+        # Turn off all pixels on the NeoPixel strip
+        for i in range(0, self.numpixels):
+            self.strip.setPixelColor(i, 0)
+        self.strip.show()
 
     print("Initialization Complete! :)")
 
