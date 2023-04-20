@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Pump 1",
+		"pin": 17,
+		"value": "gin"
+	},
+	{
+		"name": "Pump 2",
+		"pin": 27,
+		"value": "tonic"
+	},
+	{
+		"name": "Pump 3",
+		"pin": 22,
+		"value": null
+	},
+	{
+		"name": "Pump 4",
+		"pin": 23,
+		"value": null
+	},
+	{
+		"name": "Pump 5",
+		"pin": 24,
+		"value": null
+	},
+	{
+		"name": "Pump 6",
+		"pin": 25,
+		"value": null
+	}
+]
